@@ -10,4 +10,9 @@ public class Bicicleta extends Vehiculo {
     public void acelerar() {
         System.out.println(marca + " bicicleta pedaleando con " + velocidades + " velocidades");
     }
+    
+    // Getter para velocidades
+    public int getVelocidades() {
+        return velocidades;
+    }
 }

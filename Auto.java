@@ -12,4 +12,9 @@ public class Auto extends Vehiculo {
     public void acelerar() {
         System.out.println("🚗 " + marca + " auto acelerando a " + velocidadMaxima + " km/h con " + puertas + " puertas");
     }
+    
+    // Getter para puertas
+    public int getPuertas() {
+        return puertas;
+    }
 }
